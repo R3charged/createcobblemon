@@ -1,4 +1,4 @@
-# Create Fabric Addon Template
+# Create Cobblemon
 
 This template mod comes pre-configured for developing an addon mod for Create on Fabric.
 
