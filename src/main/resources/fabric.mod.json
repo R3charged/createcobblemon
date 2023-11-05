@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "modid",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Create Cobblemon",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -11,15 +11,15 @@
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/createcobblemon/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.r3charged.createcobblemon.CreateCobblemon"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "createcobblemon.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
